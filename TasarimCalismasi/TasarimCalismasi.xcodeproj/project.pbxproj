@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		061D8AA42BD905CB00EA4B3A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D8AA32BD905CB00EA4B3A /* AppDelegate.swift */; };
+		061D8AA62BD905CB00EA4B3A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D8AA52BD905CB00EA4B3A /* SceneDelegate.swift */; };
+		061D8AA82BD905CB00EA4B3A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D8AA72BD905CB00EA4B3A /* ViewController.swift */; };
+		061D8AAB2BD905CB00EA4B3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 061D8AAA2BD905CB00EA4B3A /* Base */; };
+		061D8AAD2BD905CD00EA4B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 061D8AAC2BD905CD00EA4B3A /* Assets.xcassets */; };
+		061D8AB02BD905CD00EA4B3A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 061D8AAF2BD905CD00EA4B3A /* Base */; };
+		061D8ABB2BD905CD00EA4B3A /* TasarimCalismasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D8ABA2BD905CD00EA4B3A /* TasarimCalismasiTests.swift */; };
+		061D8AC52BD905CD00EA4B3A /* TasarimCalismasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D8AC42BD905CD00EA4B3A /* TasarimCalismasiUITests.swift */; };
+		061D8AC72BD905CD00EA4B3A /* TasarimCalismasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 061D8AC62BD905CD00EA4B3A /* TasarimCalismasiUITestsLaunchTests.swift */; };
+		061D8AD52BD9215700EA4B3A /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 061D8AD42BD9215700EA4B3A /* Pacifico-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		061D8AB72BD905CD00EA4B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061D8A982BD905CB00EA4B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061D8A9F2BD905CB00EA4B3A;
+			remoteInfo = TasarimCalismasi;
+		};
+		061D8AC12BD905CD00EA4B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 061D8A982BD905CB00EA4B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 061D8A9F2BD905CB00EA4B3A;
+			remoteInfo = TasarimCalismasi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		060D34EF2BDA805C00D89754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		060D34F02BDA805C00D89754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		061D8AA02BD905CB00EA4B3A /* TasarimCalismasi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TasarimCalismasi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		061D8AA32BD905CB00EA4B3A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		061D8AA52BD905CB00EA4B3A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		061D8AA72BD905CB00EA4B3A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		061D8AAA2BD905CB00EA4B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		061D8AAC2BD905CD00EA4B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		061D8AAF2BD905CD00EA4B3A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		061D8AB12BD905CD00EA4B3A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		061D8AB62BD905CD00EA4B3A /* TasarimCalismasiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		061D8ABA2BD905CD00EA4B3A /* TasarimCalismasiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiTests.swift; sourceTree = "<group>"; };
+		061D8AC02BD905CD00EA4B3A /* TasarimCalismasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TasarimCalismasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		061D8AC42BD905CD00EA4B3A /* TasarimCalismasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITests.swift; sourceTree = "<group>"; };
+		061D8AC62BD905CD00EA4B3A /* TasarimCalismasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasarimCalismasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		061D8AD42BD9215700EA4B3A /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		061D8A9D2BD905CB00EA4B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061D8AB32BD905CD00EA4B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061D8ABD2BD905CD00EA4B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		061D8A972BD905CB00EA4B3A = {
+			isa = PBXGroup;
+			children = (
+				061D8AA22BD905CB00EA4B3A /* TasarimCalismasi */,
+				061D8AB92BD905CD00EA4B3A /* TasarimCalismasiTests */,
+				061D8AC32BD905CD00EA4B3A /* TasarimCalismasiUITests */,
+				061D8AA12BD905CB00EA4B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		061D8AA12BD905CB00EA4B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				061D8AA02BD905CB00EA4B3A /* TasarimCalismasi.app */,
+				061D8AB62BD905CD00EA4B3A /* TasarimCalismasiTests.xctest */,
+				061D8AC02BD905CD00EA4B3A /* TasarimCalismasiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		061D8AA22BD905CB00EA4B3A /* TasarimCalismasi */ = {
+			isa = PBXGroup;
+			children = (
+				061D8AA32BD905CB00EA4B3A /* AppDelegate.swift */,
+				061D8AA52BD905CB00EA4B3A /* SceneDelegate.swift */,
+				061D8AA72BD905CB00EA4B3A /* ViewController.swift */,
+				061D8AD32BD9211E00EA4B3A /* Fonts */,
+				061D8AA92BD905CB00EA4B3A /* Main.storyboard */,
+				061D8AAC2BD905CD00EA4B3A /* Assets.xcassets */,
+				061D8AAE2BD905CD00EA4B3A /* LaunchScreen.storyboard */,
+				061D8AB12BD905CD00EA4B3A /* Info.plist */,
+			);
+			path = TasarimCalismasi;
+			sourceTree = "<group>";
+		};
+		061D8AB92BD905CD00EA4B3A /* TasarimCalismasiTests */ = {
+			isa = PBXGroup;
+			children = (
+				061D8ABA2BD905CD00EA4B3A /* TasarimCalismasiTests.swift */,
+			);
+			path = TasarimCalismasiTests;
+			sourceTree = "<group>";
+		};
+		061D8AC32BD905CD00EA4B3A /* TasarimCalismasiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				061D8AC42BD905CD00EA4B3A /* TasarimCalismasiUITests.swift */,
+				061D8AC62BD905CD00EA4B3A /* TasarimCalismasiUITestsLaunchTests.swift */,
+			);
+			path = TasarimCalismasiUITests;
+			sourceTree = "<group>";
+		};
+		061D8AD32BD9211E00EA4B3A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				061D8AD42BD9215700EA4B3A /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		061D8A9F2BD905CB00EA4B3A /* TasarimCalismasi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061D8ACA2BD905CD00EA4B3A /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */;
+			buildPhases = (
+				061D8A9C2BD905CB00EA4B3A /* Sources */,
+				061D8A9D2BD905CB00EA4B3A /* Frameworks */,
+				061D8A9E2BD905CB00EA4B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TasarimCalismasi;
+			productName = TasarimCalismasi;
+			productReference = 061D8AA02BD905CB00EA4B3A /* TasarimCalismasi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		061D8AB52BD905CD00EA4B3A /* TasarimCalismasiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061D8ACD2BD905CD00EA4B3A /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */;
+			buildPhases = (
+				061D8AB22BD905CD00EA4B3A /* Sources */,
+				061D8AB32BD905CD00EA4B3A /* Frameworks */,
+				061D8AB42BD905CD00EA4B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061D8AB82BD905CD00EA4B3A /* PBXTargetDependency */,
+			);
+			name = TasarimCalismasiTests;
+			productName = TasarimCalismasiTests;
+			productReference = 061D8AB62BD905CD00EA4B3A /* TasarimCalismasiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		061D8ABF2BD905CD00EA4B3A /* TasarimCalismasiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 061D8AD02BD905CD00EA4B3A /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */;
+			buildPhases = (
+				061D8ABC2BD905CD00EA4B3A /* Sources */,
+				061D8ABD2BD905CD00EA4B3A /* Frameworks */,
+				061D8ABE2BD905CD00EA4B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				061D8AC22BD905CD00EA4B3A /* PBXTargetDependency */,
+			);
+			name = TasarimCalismasiUITests;
+			productName = TasarimCalismasiUITests;
+			productReference = 061D8AC02BD905CD00EA4B3A /* TasarimCalismasiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		061D8A982BD905CB00EA4B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					061D8A9F2BD905CB00EA4B3A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					061D8AB52BD905CD00EA4B3A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 061D8A9F2BD905CB00EA4B3A;
+					};
+					061D8ABF2BD905CD00EA4B3A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 061D8A9F2BD905CB00EA4B3A;
+					};
+				};
+			};
+			buildConfigurationList = 061D8A9B2BD905CB00EA4B3A /* Build configuration list for PBXProject "TasarimCalismasi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 061D8A972BD905CB00EA4B3A;
+			productRefGroup = 061D8AA12BD905CB00EA4B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				061D8A9F2BD905CB00EA4B3A /* TasarimCalismasi */,
+				061D8AB52BD905CD00EA4B3A /* TasarimCalismasiTests */,
+				061D8ABF2BD905CD00EA4B3A /* TasarimCalismasiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		061D8A9E2BD905CB00EA4B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061D8AAD2BD905CD00EA4B3A /* Assets.xcassets in Resources */,
+				061D8AD52BD9215700EA4B3A /* Pacifico-Regular.ttf in Resources */,
+				061D8AB02BD905CD00EA4B3A /* Base in Resources */,
+				061D8AAB2BD905CB00EA4B3A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061D8AB42BD905CD00EA4B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061D8ABE2BD905CD00EA4B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		061D8A9C2BD905CB00EA4B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061D8AA82BD905CB00EA4B3A /* ViewController.swift in Sources */,
+				061D8AA42BD905CB00EA4B3A /* AppDelegate.swift in Sources */,
+				061D8AA62BD905CB00EA4B3A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061D8AB22BD905CD00EA4B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061D8ABB2BD905CD00EA4B3A /* TasarimCalismasiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		061D8ABC2BD905CD00EA4B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				061D8AC52BD905CD00EA4B3A /* TasarimCalismasiUITests.swift in Sources */,
+				061D8AC72BD905CD00EA4B3A /* TasarimCalismasiUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		061D8AB82BD905CD00EA4B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061D8A9F2BD905CB00EA4B3A /* TasarimCalismasi */;
+			targetProxy = 061D8AB72BD905CD00EA4B3A /* PBXContainerItemProxy */;
+		};
+		061D8AC22BD905CD00EA4B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 061D8A9F2BD905CB00EA4B3A /* TasarimCalismasi */;
+			targetProxy = 061D8AC12BD905CD00EA4B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		061D8AA92BD905CB00EA4B3A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061D8AAA2BD905CB00EA4B3A /* Base */,
+				060D34EF2BDA805C00D89754 /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		061D8AAE2BD905CD00EA4B3A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				061D8AAF2BD905CD00EA4B3A /* Base */,
+				060D34F02BDA805C00D89754 /* en */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		061D8AC82BD905CD00EA4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		061D8AC92BD905CD00EA4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		061D8ACB2BD905CD00EA4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.TasarimCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		061D8ACC2BD905CD00EA4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TasarimCalismasi/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Pizza;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.TasarimCalismasi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		061D8ACE2BD905CD00EA4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.TasarimCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasarimCalismasi";
+			};
+			name = Debug;
+		};
+		061D8ACF2BD905CD00EA4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.TasarimCalismasiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TasarimCalismasi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TasarimCalismasi";
+			};
+			name = Release;
+		};
+		061D8AD12BD905CD00EA4B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.TasarimCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasarimCalismasi;
+			};
+			name = Debug;
+		};
+		061D8AD22BD905CD00EA4B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.info.TasarimCalismasiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TasarimCalismasi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		061D8A9B2BD905CB00EA4B3A /* Build configuration list for PBXProject "TasarimCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061D8AC82BD905CD00EA4B3A /* Debug */,
+				061D8AC92BD905CD00EA4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061D8ACA2BD905CD00EA4B3A /* Build configuration list for PBXNativeTarget "TasarimCalismasi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061D8ACB2BD905CD00EA4B3A /* Debug */,
+				061D8ACC2BD905CD00EA4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061D8ACD2BD905CD00EA4B3A /* Build configuration list for PBXNativeTarget "TasarimCalismasiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061D8ACE2BD905CD00EA4B3A /* Debug */,
+				061D8ACF2BD905CD00EA4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		061D8AD02BD905CD00EA4B3A /* Build configuration list for PBXNativeTarget "TasarimCalismasiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				061D8AD12BD905CD00EA4B3A /* Debug */,
+				061D8AD22BD905CD00EA4B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 061D8A982BD905CB00EA4B3A /* Project object */;
+}

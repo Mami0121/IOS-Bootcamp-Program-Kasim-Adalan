@@ -1,0 +1,39 @@
+
+/* Class = "UILabel"; text = "Beef Cheese"; ObjectID = "5Al-gN-aQC"; */
+"5Al-gN-aQC.text" = "Beef Cheese";
+
+/* Class = "UILabel"; text = "Delivery"; ObjectID = "5UK-Rf-9Wh"; */
+"5UK-Rf-9Wh.text" = "Delivery";
+
+/* Class = "UILabel"; text = "Meat lover, get ready to meet your pizza !"; ObjectID = "Btf-JD-dSn"; */
+"Btf-JD-dSn.text" = "Meat lover, get ready to meet your pizza !";
+
+/* Class = "UIButton"; configuration.title = "Sausage"; ObjectID = "CCY-vK-WzU"; */
+"CCY-vK-WzU.configuration.title" = "Sausage";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "CCY-vK-WzU"; */
+"CCY-vK-WzU.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "$ 5.98"; ObjectID = "HCP-ut-GwA"; */
+"HCP-ut-GwA.text" = "$ 5.98";
+
+/* Class = "UIButton"; configuration.title = "Cheese"; ObjectID = "LYE-ef-sos"; */
+"LYE-ef-sos.configuration.title" = "Cheese";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "LYE-ef-sos"; */
+"LYE-ef-sos.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "20 min"; ObjectID = "Zsl-Ec-IUn"; */
+"Zsl-Ec-IUn.text" = "20 min";
+
+/* Class = "UIButton"; configuration.title = "ADD TO CARD"; ObjectID = "aBu-29-CFb"; */
+"aBu-29-CFb.configuration.title" = "ADD TO CARD";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "aBu-29-CFb"; */
+"aBu-29-CFb.normalTitle" = "Button";
+
+/* Class = "UIButton"; configuration.title = "Pepper"; ObjectID = "jpr-3c-Xhe"; */
+"jpr-3c-Xhe.configuration.title" = "Pepper";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "jpr-3c-Xhe"; */
+"jpr-3c-Xhe.normalTitle" = "Button";
